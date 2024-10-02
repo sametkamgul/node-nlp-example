@@ -1,0 +1,13 @@
+{
+  "name": "nlp-generator",
+  "version": "1.0.0",
+  "private": false,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "node postScripts/nlpBuild.js"
+  },
+  "dependencies": {
+    "node-nlp": "^4.27.0"
+  }
+}
